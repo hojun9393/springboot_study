@@ -9,7 +9,6 @@ import org.springframework.stereotype.Service;
 import hello.hello_spring.domain.Member;
 import hello.hello_spring.repository.MemberRepository;
 
-@Service
 public class MemberService {
 
 	private final MemberRepository memberRepository;
